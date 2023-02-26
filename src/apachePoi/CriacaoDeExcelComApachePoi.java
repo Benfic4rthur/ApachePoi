@@ -14,13 +14,13 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
 
-public class ApachePoi {
+public class CriacaoDeExcelComApachePoi {
 	public static void main(String[] args) throws IOException {
 		int criartabela = JOptionPane.showConfirmDialog(null, "Deseja criar a planilha?");
 		if (criartabela == 0) {
 			// caminho do arquivo
 			File arquivo = new File(
-					"C:\\workspace-java\\AulasJavaAvancadas\\src\\trabalhandoComApachePoi\\arquivo_excel.xls");
+					"C:\\workspace-java\\ApachePoi\\src\\apachePoi\\arquivo_excel.xls");
 			// se arquivo não existe
 			if (!arquivo.exists()) {
 				// cria um arquivo

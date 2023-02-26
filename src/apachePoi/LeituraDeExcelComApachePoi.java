@@ -72,7 +72,8 @@ public class LeituraDeExcelComApachePoi {
 
 		// Imprime os objetos ArquivoPessoas na lista de pessoas
 		for (ArquivoPessoas arquivoPessoas : pessoas) {
-			System.out.println(pessoas);
+			System.out.println(arquivoPessoas);
 		}
+		hssfWorkbook.close();
 	}
 }
